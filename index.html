@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Game in town</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <script src="//api-maps.yandex.ru/2.0/?load=package.standard&lang=ru-RU" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div id="map"></div>
+<input id="input" type="text" placeholder="Введите название города">
+<button id="button">Найти</button>
+<br>
+<span id="you" class="turn">Вы</span>
+<input id="score" value="0:0" disabled>
+<span id="computer">Компьютер</span>
+
+<script src="js/const.js" type="text/javascript"></script>
+<script src="js/interface.js" type="text/javascript"></script>
+<script src="js/core.js" type="text/javascript"></script>
+<script src="js/game.js" type="text/javascript"></script>
+</body>
+</html>
